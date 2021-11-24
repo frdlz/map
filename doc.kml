@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Untitled layer</name>
-    <Style id="poly-817717-1-43-nodesc-normal">
+    <Style id="poly-817717-1-43-normal">
       <LineStyle>
         <color>ff177781</color>
         <width>0.001</width>
@@ -12,11 +12,8 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="poly-817717-1-43-nodesc-highlight">
+    <Style id="poly-817717-1-43-highlight">
       <LineStyle>
         <color>ff177781</color>
         <width>0.0015</width>
@@ -26,21 +23,18 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="poly-817717-1-43-nodesc">
+    <StyleMap id="poly-817717-1-43">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-817717-1-43-nodesc-normal</styleUrl>
+        <styleUrl>#poly-817717-1-43-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-817717-1-43-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-817717-1-43-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-9FA8DA-1200-61-nodesc-normal">
+    <Style id="poly-9FA8DA-1200-61-normal">
       <LineStyle>
         <color>ffdaa89f</color>
         <width>1.2</width>
@@ -50,11 +44,8 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <Style id="poly-9FA8DA-1200-61-nodesc-highlight">
+    <Style id="poly-9FA8DA-1200-61-highlight">
       <LineStyle>
         <color>ffdaa89f</color>
         <width>1.8</width>
@@ -64,23 +55,21 @@
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
     </Style>
-    <StyleMap id="poly-9FA8DA-1200-61-nodesc">
+    <StyleMap id="poly-9FA8DA-1200-61">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-9FA8DA-1200-61-nodesc-normal</styleUrl>
+        <styleUrl>#poly-9FA8DA-1200-61-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-9FA8DA-1200-61-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-9FA8DA-1200-61-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Placemark>
       <name>kaltim</name>
-      <styleUrl>#poly-9FA8DA-1200-61-nodesc</styleUrl>
+      <description>Kalimantan Timur</description>
+      <styleUrl>#poly-9FA8DA-1200-61</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
@@ -195,7 +184,8 @@
     </Placemark>
     <Placemark>
       <name>Kaltara</name>
-      <styleUrl>#poly-817717-1-43-nodesc</styleUrl>
+      <description>Kalimantan Utara</description>
+      <styleUrl>#poly-817717-1-43</styleUrl>
       <Polygon>
         <outerBoundaryIs>
           <LinearRing>
